@@ -1,0 +1,123 @@
+{
+  "updated": "2026-10-16T17:21:42+00:00",
+  "currency": "USD",
+  "money": {
+    "debit": 3200,
+    "credit": 640,
+    "cushion": 50000,
+    "mandatory_left": 319,
+    "free": 2241
+  },
+  "today": {
+    "can_spend": 0.0,
+    "days_left": 16
+  },
+  "pocket": {
+    "monthly": 180,
+    "spent": 276,
+    "left": -96,
+    "elapsed": 0.516,
+    "pct": 153.3
+  },
+  "limits": {
+    "food": {
+      "name": "Продукты",
+      "spent": 321,
+      "limit": 640,
+      "left": 319,
+      "pct": 50.2,
+      "state": "ok",
+      "carry": 0
+    },
+    "eating_out": {
+      "name": "Кафе и рестораны",
+      "spent": 63,
+      "limit": 120,
+      "left": 57,
+      "pct": 52.5,
+      "state": "ok",
+      "carry": 0
+    },
+    "shopping": {
+      "name": "Шопинг",
+      "spent": 200,
+      "limit": 0,
+      "left": null,
+      "pct": 0.0,
+      "state": "none",
+      "carry": 0
+    },
+    "fun": {
+      "name": "Развлечения",
+      "spent": 13,
+      "limit": 10,
+      "left": -3,
+      "pct": 129.9,
+      "state": "full",
+      "carry": 0
+    }
+  },
+  "elapsed_pct": 51.6,
+  "forecast": {
+    "min": 2922,
+    "min_date": "2026-10-29",
+    "end": 5175,
+    "low": false,
+    "next_income_date": "2026-10-30",
+    "next_income": 2100.0
+  },
+  "next_payment": {
+    "date": "2026-11-01",
+    "what": "Ипотека",
+    "amount": 1500,
+    "type": "mortgage"
+  },
+  "subscriptions_monthly": 13,
+  "sinking_monthly": 10.75,
+  "mortgage": {
+    "balance": 209694,
+    "payment": 1400,
+    "prepay_monthly": 1600,
+    "months_saved": 204,
+    "remaining_months": 308
+  },
+  "warnings": [
+    "Карманные: на хотелки ушло 276 из 180, а прошло 52% месяца. Стоп-шопинг: рестораны, покупки и развлечения — до следующего месяца, иначе это деньги из досрочки.",
+    "Spotify подорожал: 11.99 → 12.99 (+8.3%). Проверьте, нужна ли ещё эта подписка.",
+    "Похоже на двойное списание: Gadget Shop — 50 дважды 2026-10-11. Проверьте выписку и при необходимости оспорьте."
+  ],
+  "game": {
+    "level": 9,
+    "title": "Новобранец",
+    "xp": 1565,
+    "level_pct": 21.7,
+    "streak": 1,
+    "best_streak": 3,
+    "piggy": 5.81,
+    "quests_done": 3,
+    "quests": [
+      {
+        "name": "Уложиться в 6 на карманные",
+        "done": true,
+        "xp": 70
+      },
+      {
+        "name": "Обойти таверны стороной: без ресторанов и кофеен",
+        "done": true,
+        "xp": 25
+      },
+      {
+        "name": "Пост казначея: ни одной лишней траты",
+        "done": true,
+        "xp": 50
+      }
+    ],
+    "achievements": 1,
+    "achievements_total": 14,
+    "dragon": {
+      "hp": 209694,
+      "max_hp": 240000,
+      "pct": 87.4
+    }
+  }
+}
