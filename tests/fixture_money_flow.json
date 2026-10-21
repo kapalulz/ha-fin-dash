@@ -1,0 +1,268 @@
+{
+  "schema_version": 1,
+  "currency": "USD",
+  "month": "2026-10",
+  "generated_at": "2026-10-21T02:27:38+00:00",
+  "flow": {
+    "plan": {
+      "income": 4550,
+      "mandatory": 2225,
+      "left": 2325,
+      "parts": [
+        {
+          "id": "need",
+          "amount": 0
+        },
+        {
+          "id": "one_off",
+          "amount": 0
+        },
+        {
+          "id": "pocket",
+          "amount": 150
+        },
+        {
+          "id": "prepay",
+          "amount": 1307
+        },
+        {
+          "id": "buffer",
+          "amount": 228
+        }
+      ],
+      "rest": 640
+    },
+    "now": {
+      "income": 4200,
+      "mandatory": 1906,
+      "left": 2294,
+      "parts": [
+        {
+          "id": "need",
+          "amount": 0
+        },
+        {
+          "id": "one_off",
+          "amount": 0
+        },
+        {
+          "id": "pocket",
+          "amount": 276
+        },
+        {
+          "id": "prepay",
+          "amount": 0
+        }
+      ],
+      "rest": 2018,
+      "end": {
+        "income_ahead": 2100,
+        "mandatory_ahead": 319,
+        "result": 3799
+      }
+    }
+  },
+  "overview": {
+    "debit": 3200,
+    "credit": 640,
+    "cushion": 50000,
+    "mandatory_left": 319,
+    "free": 2241
+  },
+  "today": {
+    "can_spend": 0.0,
+    "days_left": 16,
+    "elapsed": 0.516,
+    "pocket": {
+      "monthly": 150,
+      "spent": 276,
+      "left": -126
+    },
+    "piggy": 4.84
+  },
+  "limits": [
+    {
+      "id": "pocket",
+      "name": "Карманные",
+      "spent": 276,
+      "limit": 150,
+      "pct": 1.84,
+      "state": "full",
+      "carry": 0
+    },
+    {
+      "id": "food",
+      "name": "Продукты",
+      "spent": 321,
+      "limit": 640,
+      "pct": 0.502,
+      "state": "ok",
+      "carry": 0
+    }
+  ],
+  "forecast": {
+    "start": 3200,
+    "end": 5175,
+    "low": false,
+    "min": {
+      "date": "2026-10-29",
+      "balance": 2922
+    },
+    "points": [
+      3200,
+      3179,
+      3157,
+      3136,
+      3115,
+      3093,
+      3072,
+      3051,
+      3029,
+      3008,
+      2987,
+      2965,
+      2944,
+      2922,
+      5001,
+      4980,
+      3458,
+      3437,
+      3416,
+      3394,
+      3373,
+      3352,
+      3330,
+      3309,
+      3288,
+      3266,
+      3245,
+      3139,
+      5217,
+      5196,
+      5175
+    ],
+    "first_date": "2026-10-16",
+    "next_income": {
+      "date": "2026-10-30",
+      "amount": 2100.0
+    },
+    "next_payment": {
+      "date": "2026-11-01",
+      "what": "Ипотека",
+      "amount": 1500,
+      "type": "mortgage"
+    }
+  },
+  "game": {
+    "level": 9,
+    "title": "Новобранец",
+    "xp": 1565,
+    "level_xp": 65,
+    "level_need": 300,
+    "streak": 1,
+    "best_streak": 3,
+    "piggy": 4.84,
+    "quests": [
+      {
+        "name": "Уложиться в 5 на карманные",
+        "done": true,
+        "xp": 70,
+        "progress": 0,
+        "goal": 4.84
+      },
+      {
+        "name": "Обойти таверны стороной: без ресторанов и кофеен",
+        "done": true,
+        "xp": 25,
+        "progress": null,
+        "goal": null
+      },
+      {
+        "name": "Пост казначея: ни одной лишней траты",
+        "done": true,
+        "xp": 50,
+        "progress": null,
+        "goal": null
+      }
+    ],
+    "achievements": [
+      {
+        "name": "Первый поход",
+        "rarity": "common",
+        "earned": true
+      },
+      {
+        "name": "Неделя дисциплины",
+        "rarity": "uncommon",
+        "earned": false
+      },
+      {
+        "name": "Домашний очаг",
+        "rarity": "uncommon",
+        "earned": false
+      },
+      {
+        "name": "Месяц в плюсе",
+        "rarity": "rare",
+        "earned": false
+      },
+      {
+        "name": "Сундук с золотом",
+        "rarity": "rare",
+        "earned": false
+      },
+      {
+        "name": "Железная воля",
+        "rarity": "epic",
+        "earned": false
+      },
+      {
+        "name": "Сокровищница",
+        "rarity": "epic",
+        "earned": false
+      },
+      {
+        "name": "Экономный едок",
+        "rarity": "rare",
+        "earned": false
+      },
+      {
+        "name": "Повелитель конвертов",
+        "rarity": "epic",
+        "earned": false
+      },
+      {
+        "name": "Удар по дракону",
+        "rarity": "epic",
+        "earned": false
+      },
+      {
+        "name": "Устоял перед соблазном",
+        "rarity": "uncommon",
+        "earned": false
+      },
+      {
+        "name": "Аскет",
+        "rarity": "rare",
+        "earned": false
+      },
+      {
+        "name": "Мечта сбылась",
+        "rarity": "epic",
+        "earned": false
+      },
+      {
+        "name": "Легенда без долгов",
+        "rarity": "legendary",
+        "earned": false
+      }
+    ],
+    "boss": {
+      "name": "Дракон ипотеки",
+      "hp": 209694,
+      "max_hp": 240000,
+      "pct": 0.8737,
+      "hits": 0
+    }
+  }
+}

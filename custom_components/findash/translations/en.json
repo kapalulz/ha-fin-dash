@@ -1,0 +1,25 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Findash connection",
+        "data": {
+          "url": "Server URL",
+          "token": "Findash token",
+          "cf_client_id": "Cloudflare client ID (optional)",
+          "cf_client_secret": "Cloudflare client secret (optional)"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Cannot connect to Findash.",
+      "invalid_auth": "Credentials rejected. Check the token and Cloudflare policy.",
+      "invalid_data": "Invalid URL, incomplete Cloudflare credentials or incompatible API."
+    },
+    "abort": {
+      "already_configured": "This server is already configured.",
+      "reauth_successful": "Credentials updated.",
+      "unique_id_mismatch": "Use the same server URL."
+    }
+  }
+}

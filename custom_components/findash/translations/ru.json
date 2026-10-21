@@ -1,0 +1,25 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Подключение Findash",
+        "data": {
+          "url": "Адрес сервера",
+          "token": "Токен Findash",
+          "cf_client_id": "Cloudflare Client ID (необязательно)",
+          "cf_client_secret": "Cloudflare Client Secret (необязательно)"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Не удалось подключиться к Findash.",
+      "invalid_auth": "Доступ отклонён. Проверьте токены и политику Cloudflare.",
+      "invalid_data": "Неверный адрес, неполные данные Cloudflare или несовместимый API."
+    },
+    "abort": {
+      "already_configured": "Этот сервер уже добавлен.",
+      "reauth_successful": "Данные доступа обновлены.",
+      "unique_id_mismatch": "Укажите прежний адрес сервера."
+    }
+  }
+}
